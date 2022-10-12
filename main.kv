@@ -1,0 +1,21 @@
+
+<SplashScreen>:
+    canvas.before:
+        Color:
+            rgb:(.1,.1,1,1)
+        Rectangle:
+            size: self.width,self.height
+
+    Label:
+        text:"Flappy Bird"
+        font_size: 100
+        font_name:"font/a.otf"
+    Widget:
+        ProgressBar:
+            size: root.width,15
+            value: root.progress
+            max: 100
+
+
+
+<IntroScreen>:
